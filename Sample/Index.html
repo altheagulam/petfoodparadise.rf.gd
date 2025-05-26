@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Food Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Pet Food Paradise Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#home">HOME</a>
+                <a href="#shop">SHOP</a>
+                <a href="#about">ABOUT</a>
+                <a href="#giving-back">GIVING BACK</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="nav-icons">
+                <a href="#login" class="login-icon">
+                    <i class="fas fa-user"></i>
+                    Log In
+                </a>
+                <a href="#cart" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="slideshow">
+            <div class="slide fade" style="background-image: url('https://i.pinimg.com/736x/51/b7/8d/51b78df7a831f2cbc1eb92442a80d7f4.jpg')"></div>
+            <div class="slide fade" style="background-image: url('https://i.pinimg.com/736x/4c/15/65/4c15658ef5bcd67bb07839153dfad8ca.jpg')"></div>
+            <div class="slide fade" style="background-image: url('https://i.pinimg.com/736x/7b/d6/dd/7bd6dd5c73e2390d5c43609fa3f2e065.jpg')"></div>
+        </div>
+        <div class="hero-content">
+            <h1>WELCOME TO PET FOOD PARADISE</h1>
+            <button class="explore-btn">EXPLORE NOW</button>
+        </div>5
+    </section>
+
+    <!-- Latest Selection Section -->
+    <section class="latest-selection">
+        <h2>DISCOVER OUR LATEST SELECTION</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <span class="badge">Best Seller</span>
+                <img src="https://www.petwarehouse.ph/13984-big_default/pedigree-mother-babydog-nutridefense-milk-flavor-stage-1-puppy-dry-food.jpg" alt="Pedigree Dog Food">
+                <h3>Pedigree Adult</h3>
+                <p class="price">₱250.00</p>
+            </div>
+            <!-- More product cards will be added -->
+        </div>
+        <button class="view-all">VIEW ALL PRODUCTS</button>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-content">
+            <h2>PREMIUM NUTRITION</h2>
+            <p>Discover our premium selection of cat food, meticulously crafted from the finest, natural ingredients to keep your feline friend healthy and content.</p>
+            
+            <h2>EXCELLENCE IN EVERY BITE</h2>
+            <p>At Pet Food Paradise, we prioritize excellence in every bite. Our cat food is expertly crafted to provide optimum nutrition and taste for your beloved pet.</p>
+            
+            <h2>LOCAL & FRESH</h2>
+            <p>We are committed to sourcing locally to ensure the freshness and quality of our cat food. By supporting local producers, we bring the best to your cat's bowl.</p>
+        </div>
+    </section>
+
+    <!-- Giving Back Section -->
+    <section class="giving-back">
+        <h2>NOURISHING CATS IN NEED</h2>
+        <p>Join us in nourishing cats in need. For every purchase, a portion goes towards providing nourishing meals to shelter cats awaiting their forever homes.</p>
+        <button class="get-involved">GET INVOLVED</button>
+    </section>
+
+    <!-- Happy Customers Section -->
+    <section class="happy-customers">
+        <h2>OUR HAPPY CUSTOMERS</h2>
+        <div class="customers-grid">
+            <div class="customer-card">
+                <div class="customer-image" style="background-image: url('https://i.pinimg.com/736x/15/8b/60/158b608bfeb7bf83e20c6f3470c89bb2.jpg')"></div>
+                <div class="customer-info">
+                    <h3>PACO</h3>
+                    <p class="pet-type">Golden Retriever</p>
+                    <p class="testimonial">"The quality of food is amazing! My fur is shinier and I have more energy than ever."</p>
+                </div>
+            </div>
+            
+            <div class="customer-card">
+                <div class="customer-image" style="background-image: url('https://i.pinimg.com/736x/2a/0f/e6/2a0fe66767f7fc7f46237f9496f7e7ff.jpg')"></div>
+                <div class="customer-info">
+                    <h3>LUNA & MAX</h3>
+                    <p class="pet-type">Siamese Cats</p>
+                    <p class="testimonial">"We're picky eaters but we absolutely love the premium cat food selection!"</p>
+                </div>
+            </div>
+
+            <div class="customer-card">
+                <div class="customer-image" style="background-image: url('https://i.pinimg.com/736x/a7/0a/30/a70a30c9ab9ef9780c247174d861a1fe.jpg')"></div>
+                <div class="customer-info">
+                    <h3>ROCKY</h3>
+                    <p class="pet-type">Husky</p>
+                    <p class="testimonial">"The nutrition supplements have helped me maintain my active lifestyle!"</p>
+                </div>
+            </div>
+
+            <div class="customer-card">
+                <div class="customer-image" style="background-image: url('https://i.pinimg.com/736x/8c/3f/56/8c3f56fc5cebc9ea85210a4a98ea1507.jpg')"></div>
+                <div class="customer-info">
+                    <h3>BELLA</h3>
+                    <p class="pet-type">Persian Cat</p>
+                    <p class="testimonial">"My coat has never been softer. Thank you Pet Food Paradise!"</p>
+                </div>
+            </div>
+
+            <div class="customer-card">
+                <div class="customer-image" style="background-image: url('https://i.pinimg.com/736x/f7/4f/28/f74f28072fcd74074bd74c2f127d323b.jpg')"></div>
+                <div class="customer-info">
+                    <h3>BUDDY</h3>
+                    <p class="pet-type">Labrador</p>
+                    <p class="testimonial">"Best treats ever! I can't wait for my daily snack time."</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Products Popup Modal -->
+    <div id="productsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>ALL PRODUCTS</h2>
+                <div class="modal-cart-preview">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="modal-cart-count">0</span>
+                </div>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Dog Food</button>
+                <button class="filter-btn">Cat Food</button>
+                <button class="filter-btn">Supplements</button>
+                <button class="filter-btn">Treats</button>
+            </div>
+            <div class="modal-sort">
+                <select class="sort-select">
+                    <option value="recommended">Recommended</option>
+                    <option value="newest">Newest</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                </select>
+            </div>
+            <div class="modal-products-grid">
+                <div class="modal-product" data-id="1" data-name="Pedigree Puppy" data-price="250">
+                    <div class="product-image">
+                        <img src="https://www.petwarehouse.ph/13984-big_default/pedigree-mother-babydog-nutridefense-milk-flavor-stage-1-puppy-dry-food.jpg" alt="Pedigree Puppy">
+                        <span class="sale-tag">-20%</span>
+                        <div class="quick-add-container">
+                            <div class="quantity-selector">
+                                <button class="qty-btn minus">-</button>
+                                <input type="number" value="1" min="1" max="99" class="qty-input">
+                                <button class="qty-btn plus">+</button>
+                            </div>
+                            <button class="quick-add">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Pedigree Puppy</h3>
+                        <p class="price"><span class="original">₱300.00</span> ₱250.00</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(245)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-product" data-id="2" data-name="Royal Canin Mini Adult" data-price="450">
+                    <div class="product-image">
+                        <img src="https://www.petwarehouse.ph/15391-big_default/royal-canin-mini-adult-dog-food.jpg" alt="Royal Canin Mini">
+                        <div class="quick-add-container">
+                            <div class="quantity-selector">
+                                <button class="qty-btn minus">-</button>
+                                <input type="number" value="1" min="1" max="99" class="qty-input">
+                                <button class="qty-btn plus">+</button>
+                            </div>
+                            <button class="quick-add">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3>Royal Canin Mini Adult</h3>
+                        <p class="price">₱450.00</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(189)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-product">
+                    <div class="product-image">
+                        <img src="https://www.petwarehouse.ph/15015-big_default/whiskas-ocean-fish-dry-cat-food.jpg" alt="Whiskas Ocean Fish">
+                        <span class="sale-tag">-15%</span>
+                        <button class="quick-add">+ Quick Add</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Whiskas Ocean Fish</h3>
+                        <p class="price"><span class="original">₱200.00</span> ₱170.00</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(156)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-product">
+                    <div class="product-image">
+                        <img src="https://www.petwarehouse.ph/21001-big_default/fancy-feast-gravy-lovers-salmon-feast-in-gravy-wet-cat-food.jpg" alt="Fancy Feast">
+                        <span class="new-tag">New</span>
+                        <button class="quick-add">+ Quick Add</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Fancy Feast Salmon</h3>
+                        <p class="price">₱180.00</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(89)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Preview Modal -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content cart-modal">
+            <div class="modal-header">
+                <h2>YOUR CART</h2>
+                <span class="close-cart">&times;</span>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <span class="subtotal">₱0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping:</span>
+                    <span class="shipping">₱50.00</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total:</span>
+                    <span class="total-amount">₱0.00</span>
+                </div>
+                <button class="checkout-btn" id="checkoutBtn">PROCEED TO CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkoutModal" class="modal">
+        <div class="modal-content checkout-modal">
+            <div class="modal-header">
+                <h2>CHECKOUT</h2>
+                <span class="close-checkout">&times;</span>
+            </div>
+            <form id="checkoutForm" class="checkout-form">
+                <div class="form-section">
+                    <h3>Shipping Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea id="address" required></textarea>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <h3>Payment Information</h3>
+                    <div class="form-group">
+                        <label for="cardName">Name on Card</label>
+                        <input type="text" id="cardName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardNumber">Card Number</label>
+                        <input type="text" id="cardNumber" maxlength="16" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiry">Expiry Date</label>
+                            <input type="text" id="expiry" placeholder="MM/YY" maxlength="5" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" maxlength="3" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-summary">
+                    <h3>Order Summary</h3>
+                    <div class="summary-items">
+                        <!-- Order items will be dynamically added here -->
+                    </div>
+                    <div class="summary-total">
+                        <div class="summary-row">
+                            <span>Total:</span>
+                            <span class="checkout-total">₱0.00</span>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="place-order-btn">PLACE ORDER</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Cart Notification -->
+    <div id="cartNotification" class="cart-notification">
+        <i class="fas fa-check-circle"></i>
+        <span class="notification-message"></span>
+    </div>
+
+    <!-- Chat Button and Widget -->
+    <div class="chat-widget">
+        <div id="chatBox" class="chat-box">
+            <div class="chat-header">
+                <h3><i class="fas fa-robot"></i> PetBot Assistant</h3>
+                <button class="close-chat">&times;</button>
+            </div>
+            <div class="chat-messages">
+                <div class="message support">
+                    <div class="message-content">
+                        <p>👋 Hi! I'm PetBot, your personal assistant. How can I help you today?</p>
+                        <div class="quick-replies">
+                            <button class="quick-reply-btn" data-query="products">Products Info</button>
+                            <button class="quick-reply-btn" data-query="shipping">Shipping</button>
+                            <button class="quick-reply-btn" data-query="orders">Track Order</button>
+                            <button class="quick-reply-btn" data-query="support">Support</button>
+                        </div>
+                        <span class="time">Just now</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message..." id="messageInput">
+                <button class="send-message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+        <button id="chatButton" class="chat-button">
+            <i class="fas fa-comments"></i>
+            <span>Let's Chat</span>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>QUICK LINKS</h3>
+                <a href="#home">HOME</a>
+                <a href="#shop">SHOP</a>
+                <a href="#about">ABOUT</a>
+                <a href="#giving-back">GIVING BACK</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="footer-contact">
+                <h3>CUSTOMER CARE</h3>
+                <p>Need assistance?</p>
+                <p>Reach out to our team at 123-456-789 or info@petfoodparadise.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>CONNECT WITH US</h3>
+                <div class="social-icons">
+                    <a href="#instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 by Pet Food Paradise. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Update the script section -->
+    <script>
+        const modal = document.getElementById("productsModal");
+        const cartModal = document.getElementById("cartModal");
+        const checkoutModal = document.getElementById("checkoutModal");
+        const viewAllBtn = document.querySelector(".view-all");
+        const closeBtn = document.querySelector(".close");
+        const closeCartBtn = document.querySelector(".close-cart");
+        const closeCheckoutBtn = document.querySelector(".close-checkout");
+        const cartCount = document.querySelector(".cart-count");
+        const modalCartCount = document.querySelector(".modal-cart-count");
+        const cartNotification = document.getElementById("cartNotification");
+        const checkoutForm = document.getElementById("checkoutForm");
+        let cart = [];
+
+        // Open/Close Modal
+        viewAllBtn.onclick = function() {
+            modal.style.display = "block";
+            document.body.style.overflow = "hidden";
+        }
+
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                document.body.style.overflow = "auto";
+            }
+        }
+
+        // Quantity Selector Functionality
+        document.querySelectorAll('.qty-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const input = this.parentElement.querySelector('.qty-input');
+                const currentValue = parseInt(input.value);
+                
+                if (this.classList.contains('minus')) {
+                    if (currentValue > 1) {
+                        input.value = currentValue - 1;
+                    }
+                } else {
+                    if (currentValue < 99) {
+                        input.value = currentValue + 1;
+                    }
+                }
+            });
+        });
+
+        // Add to Cart Functionality
+        document.querySelectorAll('.quick-add').forEach(button => {
+            button.addEventListener('click', function() {
+                const product = this.closest('.modal-product');
+                const productId = product.dataset.id;
+                const productName = product.dataset.name;
+                const productPrice = parseFloat(product.dataset.price);
+                const quantity = parseInt(product.querySelector('.qty-input').value);
+
+                addToCart(productId, productName, productPrice, quantity);
+            });
+        });
+
+        function addToCart(id, name, price, quantity) {
+            const existingItem = cart.find(item => item.id === id);
+
+            if (existingItem) {
+                existingItem.quantity += quantity;
+            } else {
+                cart.push({ id, name, price, quantity });
+            }
+
+            updateCartCount();
+            showNotification(`Added ${quantity} ${name} to cart`);
+        }
+
+        function updateCartCount() {
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            cartCount.textContent = totalItems;
+            modalCartCount.textContent = totalItems;
+        }
+
+        function showNotification(message) {
+            const notification = document.getElementById('cartNotification');
+            notification.querySelector('.notification-message').textContent = message;
+            notification.classList.add('show');
+
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+
+        // Filter buttons functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                // Add filter functionality here
+            });
+        });
+
+        // Sort functionality
+        document.querySelector('.sort-select').addEventListener('change', function() {
+            // Add sort functionality here
+        });
+
+        // Open Cart Preview when clicking cart icon
+        document.querySelector('.cart-icon').addEventListener('click', function(e) {
+            e.preventDefault();
+            updateCartDisplay();
+            cartModal.style.display = "block";
+            document.body.style.overflow = "hidden";
+        });
+
+        document.querySelector('.modal-cart-preview').addEventListener('click', function() {
+            modal.style.display = "none";
+            updateCartDisplay();
+            cartModal.style.display = "block";
+        });
+
+        // Close Cart Modal
+        closeCartBtn.onclick = function() {
+            cartModal.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+
+        // Close Checkout Modal
+        closeCheckoutBtn.onclick = function() {
+            checkoutModal.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+
+        // Update Cart Display
+        function updateCartDisplay() {
+            const cartItems = document.querySelector('.cart-items');
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            const shipping = cart.length > 0 ? 50 : 0;
+            const total = subtotal + shipping;
+
+            cartItems.innerHTML = cart.map(item => `
+                <div class="cart-item">
+                    <div class="item-details">
+                        <h4>${item.name}</h4>
+                        <p>₱${item.price.toFixed(2)} x ${item.quantity}</p>
+                    </div>
+                    <div class="item-total">
+                        ₱${(item.price * item.quantity).toFixed(2)}
+                    </div>
+                    <button class="remove-item" data-id="${item.id}">×</button>
+                </div>
+            `).join('');
+
+            document.querySelector('.subtotal').textContent = `₱${subtotal.toFixed(2)}`;
+            document.querySelector('.shipping').textContent = `₱${shipping.toFixed(2)}`;
+            document.querySelector('.total-amount').textContent = `₱${total.toFixed(2)}`;
+
+            // Update checkout button state
+            const checkoutBtn = document.getElementById('checkoutBtn');
+            checkoutBtn.disabled = cart.length === 0;
+        }
+
+        // Remove item from cart
+        document.querySelector('.cart-items').addEventListener('click', function(e) {
+            if (e.target.classList.contains('remove-item')) {
+                const itemId = e.target.dataset.id;
+                cart = cart.filter(item => item.id !== itemId);
+                updateCartCount();
+                updateCartDisplay();
+            }
+        });
+
+        // Proceed to Checkout
+        document.getElementById('checkoutBtn').addEventListener('click', function() {
+            cartModal.style.display = "none";
+            checkoutModal.style.display = "block";
+            
+            // Update order summary in checkout
+            const summaryItems = document.querySelector('.summary-items');
+            const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0) + 50;
+            
+            summaryItems.innerHTML = cart.map(item => `
+                <div class="summary-item">
+                    <span>${item.name} × ${item.quantity}</span>
+                    <span>₱${(item.price * item.quantity).toFixed(2)}</span>
+                </div>
+            `).join('');
+            
+            document.querySelector('.checkout-total').textContent = `₱${total.toFixed(2)}`;
+        });
+
+        // Handle Checkout Form Submission
+        checkoutForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simulate order processing
+            const orderBtn = document.querySelector('.place-order-btn');
+            orderBtn.textContent = 'Processing...';
+            orderBtn.disabled = true;
+            
+            setTimeout(() => {
+                // Clear cart and show success message
+                cart = [];
+                updateCartCount();
+                checkoutModal.style.display = "none";
+                document.body.style.overflow = "auto";
+                showNotification('Order placed successfully! Thank you for shopping with us.');
+                
+                // Reset form and button
+                checkoutForm.reset();
+                orderBtn.textContent = 'PLACE ORDER';
+                orderBtn.disabled = false;
+            }, 2000);
+        });
+
+        // Enhanced Chat Bot Functionality
+        const chatButton = document.getElementById('chatButton');
+        const chatBox = document.getElementById('chatBox');
+        const closeChat = document.querySelector('.close-chat');
+        const messageInput = document.getElementById('messageInput');
+        const sendButton = document.querySelector('.send-message');
+        const chatMessages = document.querySelector('.chat-messages');
+
+        // Bot responses database
+        const botResponses = {
+            products: {
+                keywords: ['product', 'item', 'food', 'brand', 'price'],
+                response: "We offer a wide range of pet food products! Here are our main categories:\n\n" +
+                    "🐕 Dog Food: Pedigree, Royal Canin, etc.\n" +
+                    "🐱 Cat Food: Whiskas, Fancy Feast, etc.\n" +
+                    "💊 Supplements\n" +
+                    "🦴 Treats\n\n" +
+                    "What specific product would you like to know more about?",
+                followUp: [
+                    { text: "Dog Food", query: "dog food" },
+                    { text: "Cat Food", query: "cat food" },
+                    { text: "Supplements", query: "supplements" },
+                    { text: "Treats", query: "treats" }
+                ]
+            },
+            shipping: {
+                keywords: ['delivery', 'shipping', 'ship', 'deliver', 'when'],
+                response: "Here's our shipping information:\n\n" +
+                    "📦 Standard Delivery: 2-3 business days (₱50)\n" +
+                    "🚚 Express Delivery: Next day delivery (₱100)\n" +
+                    "✨ FREE shipping for orders above ₱2000\n\n" +
+                    "Would you like to know more about our delivery areas?",
+                followUp: [
+                    { text: "Delivery Areas", query: "delivery areas" },
+                    { text: "Shipping Costs", query: "shipping costs" },
+                    { text: "Track Order", query: "track order" }
+                ]
+            },
+            orders: {
+                keywords: ['order', 'track', 'status', 'purchase'],
+                response: "I can help you track your order! Please provide your order number or you can:\n\n" +
+                    "1. Check recent orders\n" +
+                    "2. Track existing order\n" +
+                    "3. Report an issue\n\n" +
+                    "What would you like to do?",
+                followUp: [
+                    { text: "Recent Orders", query: "recent orders" },
+                    { text: "Track Order", query: "track order" },
+                    { text: "Report Issue", query: "report issue" }
+                ]
+            },
+            support: {
+                keywords: ['help', 'support', 'assist', 'question'],
+                response: "I'm here to help! Choose from these support options:\n\n" +
+                    "1. Product Support\n" +
+                    "2. Order Support\n" +
+                    "3. Technical Support\n" +
+                    "4. Speak to Human Agent\n\n" +
+                    "How can I assist you?",
+                followUp: [
+                    { text: "Product Support", query: "product support" },
+                    { text: "Order Support", query: "order support" },
+                    { text: "Technical Support", query: "technical support" },
+                    { text: "Human Agent", query: "human agent" }
+                ]
+            }
+        };
+
+        // Specific product responses
+        const productResponses = {
+            'dog food': "Our popular dog food brands include:\n\n" +
+                "🏆 Pedigree Puppy (₱250)\n" +
+                "👑 Royal Canin Mini Adult (₱450)\n" +
+                "🐕 Hill's Science Diet\n" +
+                "🦮 Pro Plan\n\n" +
+                "Would you like to view any specific product?",
+            'cat food': "Our top-rated cat food options:\n\n" +
+                "🐱 Whiskas Ocean Fish (₱170)\n" +
+                "😺 Fancy Feast Salmon (₱180)\n" +
+                "🐈 Royal Canin Cat\n" +
+                "🏆 Pro Plan Cat\n\n" +
+                "Which would you like to know more about?",
+            'supplements': "We offer various pet supplements:\n\n" +
+                "💪 Joint Health\n" +
+                "✨ Skin & Coat\n" +
+                "💝 Multivitamins\n" +
+                "🦷 Dental Health\n\n" +
+                "What type of supplement are you looking for?",
+            'treats': "Check out our delicious treats:\n\n" +
+                "🦴 Dog Treats\n" +
+                "🐟 Cat Treats\n" +
+                "🎁 Training Treats\n" +
+                "🦷 Dental Treats\n\n" +
+                "Which type interests you?"
+        };
+
+        function addMessage(message, isUser = true, quickReplies = null) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user' : 'support'}`;
+            
+            const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            
+            let quickReplyHTML = '';
+            if (quickReplies) {
+                quickReplyHTML = `
+                    <div class="quick-replies">
+                        ${quickReplies.map(reply => 
+                            `<button class="quick-reply-btn" data-query="${reply.query}">${reply.text}</button>`
+                        ).join('')}
+                    </div>`;
+            }
+            
+            messageDiv.innerHTML = `
+                <div class="message-content">
+                    <p>${message.replace(/\n/g, '<br>')}</p>
+                    ${quickReplyHTML}
+                    <span class="time">${time}</span>
+                </div>
+            `;
+            
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function processMessage(message) {
+            message = message.toLowerCase();
+            
+            // Check for specific product queries first
+            if (productResponses[message]) {
+                return {
+                    response: productResponses[message],
+                    followUp: [
+                        { text: "View All Products", query: "products" },
+                        { text: "Check Prices", query: "prices" },
+                        { text: "Place Order", query: "order" }
+                    ]
+                };
+            }
+
+            // Check general categories
+            for (const [category, data] of Object.entries(botResponses)) {
+                if (data.keywords.some(keyword => message.includes(keyword))) {
+                    return data;
+                }
+            }
+
+            // Default response
+            return {
+                response: "I'm not sure I understand. Can I help you with any of these?\n\n" +
+                    "• Product Information\n" +
+                    "• Shipping Details\n" +
+                    "• Order Tracking\n" +
+                    "• Customer Support",
+                followUp: [
+                    { text: "Products", query: "products" },
+                    { text: "Shipping", query: "shipping" },
+                    { text: "Orders", query: "orders" },
+                    { text: "Support", query: "support" }
+                ]
+            };
+        }
+
+        function handleUserMessage() {
+            const message = messageInput.value.trim();
+            if (message) {
+                addMessage(message, true);
+                messageInput.value = '';
+                
+                const botResponse = processMessage(message);
+                setTimeout(() => {
+                    addMessage(botResponse.response, false, botResponse.followUp);
+                }, 500);
+            }
+        }
+
+        // Event Listeners
+        chatButton.addEventListener('click', function() {
+            chatBox.classList.toggle('show');
+            chatButton.classList.toggle('hide');
+        });
+
+        closeChat.addEventListener('click', function() {
+            chatBox.classList.remove('show');
+            chatButton.classList.remove('hide');
+        });
+
+        sendButton.addEventListener('click', handleUserMessage);
+
+        messageInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                handleUserMessage();
+            }
+        });
+
+        // Handle Quick Reply Buttons
+        chatMessages.addEventListener('click', function(e) {
+            if (e.target.classList.contains('quick-reply-btn')) {
+                const query = e.target.dataset.query;
+                addMessage(query, true);
+                const botResponse = processMessage(query);
+                setTimeout(() => {
+                    addMessage(botResponse.response, false, botResponse.followUp);
+                }, 500);
+            }
+        });
+    </script>
+</body>
+</html>

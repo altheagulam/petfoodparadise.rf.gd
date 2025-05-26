@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Hexagon -->
+    <path d="M150 50L100 25L50 50L25 100L50 150L100 175L150 150L175 100L150 50Z" 
+          fill="none" 
+          stroke="#2B2D42" 
+          stroke-width="8"/>
+    
+    <!-- Dog Silhouette -->
+    <path d="M125 85C125 82 123 80 120 80C117 80 115 82 115 85C115 88 117 90 120 90C123 90 125 88 125 85Z" fill="#2B2D42"/>
+    <path d="M85 85C85 82 83 80 80 80C77 80 75 82 75 85C75 88 77 90 80 90C83 90 85 88 85 85Z" fill="#2B2D42"/>
+    <path d="M100 140C85 140 75 130 75 115C75 100 85 90 100 90C115 90 125 100 125 115C125 130 115 140 100 140Z" fill="#2B2D42"/>
+    <path d="M70 100C70 85 80 75 95 75C110 75 120 85 120 100C120 115 110 125 95 125C80 125 70 115 70 100Z" fill="#2B2D42"/>
+    
+    <!-- Text -->
+    <text x="100" y="165" 
+          font-family="Arial, sans-serif" 
+          font-size="12" 
+          font-weight="bold" 
+          text-anchor="middle" 
+          fill="#2B2D42">PET FOOD PARADISE</text>
+</svg> 
